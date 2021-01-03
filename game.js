@@ -3,10 +3,10 @@ let config = {
   type: Phaser.Auto,
   scale: {
     mode: Phaser.Scale.FIT,
-    width: 600,
-    height: 800,
+    width: 1000,
+    height: 550,
   },
-  backgroundColor: 0xff00cc,
+  backgroundColor: "blue",
   scene: {
     preload: preload,
     create: create,
